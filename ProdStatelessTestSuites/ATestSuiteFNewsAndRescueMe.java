@@ -5,6 +5,9 @@ package ProdStatelessTestSuites;
 // ****THIS TEST SUITE IS SETUP FOR USE WITH PRODUCTION DATA****
 
 // BEFORE RUNNING THIS TEST SUITE:
+// • ENSURE APP IS POINTED AT PROD MYRAC
+// • ENSURE THAT MethodRepo LINE desiredCapabilities.setCapability("noReset", "false");
+
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
