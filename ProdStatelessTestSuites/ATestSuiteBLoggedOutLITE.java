@@ -8,16 +8,14 @@ package ProdStatelessTestSuites;
 // ****THIS TEST SUITE IS SETUP FOR USE WITH PRODUCTION DATA****
 
 // BEFORE RUNNING THIS TEST SUITE:
-// • ENSURE APP IS POINTED AT PROD MYRAC
-// • ENSURE APP IS LOADED TO THE ROUTE PLANNER ONBOARDING SCREEN 
-// • IF THIS SUITE HAS BEEN RUN FOLLOWING WELCOME SUITE (AS INTENDED) - THIS SHOULD AUTOMATICALLY BE THE CASE
+// â€¢ ENSURE APP IS POINTED AT PROD MYRAC
 
 // THIS TEST SUITE WILL TEST THE FOLLOWING:
-// • Onboarding Screens
-// • MyRAC (Logged Out)
-// • MyRAC > Member Login LITE
-// • My Vehicles (Logged Out)
-// • My Vehicles > Member Login LITE
+// â€¢ Onboarding Screens
+// â€¢ MyRAC (Logged Out)
+// â€¢ MyRAC > Member Login LITE
+// â€¢ My Vehicles (Logged Out)
+// â€¢ My Vehicles > Member Login LITE
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
