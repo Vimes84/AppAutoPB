@@ -6,6 +6,7 @@ package ProdStatelessTestSuites;
 
 // BEFORE RUNNING THIS TEST SUITE:
 // • ENSURE APP IS POINTED AT PROD MYRAC
+// • ENSURE THAT MethodRepo LINE desiredCapabilities.setCapability("noReset", "false");
 
 // THIS TEST SUITE WILL TEST THE FOLLOWING:
 // • My Vehicles > No Vehicle
