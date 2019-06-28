@@ -8,6 +8,10 @@ package ProdStatelessTestSuites;
 // • ENSURE APP IS POINTED AT PROD MYRAC
 // • ENSURE THAT MethodRepo LINE desiredCapabilities.setCapability("noReset", "false");
 
+// THIS TEST SUITE WILL TEST THE FOLLOWING:
+// • Motoring News Page
+// • Rescue Me (Location Enabled)
+// • Rescue Me (Location Disabled)
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
