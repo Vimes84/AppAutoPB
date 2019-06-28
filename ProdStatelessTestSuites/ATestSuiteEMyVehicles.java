@@ -5,16 +5,13 @@ package ProdStatelessTestSuites;
 // ****THIS TEST SUITE IS SETUP FOR USE WITH PRODUCTION DATA****
 
 // BEFORE RUNNING THIS TEST SUITE:
-// • ENSURE APP IS POINTED AT PROD MYRAC
-// • ENSURE APP IS LOADED PASSED THE ONBOARDING SCREENS
-// • ENSURE APP IS SET TO DISALLOW STORAGE ACCESS
-// • IF THIS SUITE HAS BEEN RUN FOLLOWING MYRAC CANCELLED MEMBER SUITE (AS INTENDED) - THIS SHOULD AUTOMATICALLY BE THE CASE
+// â€¢ ENSURE APP IS POINTED AT PROD MYRAC
 
 // THIS TEST SUITE WILL TEST THE FOLLOWING:
-// • My Vehicles > No Vehicle
-// • My Vehicles > Add Vehicle
-// • My Vehicles > Edit Vehicle
-// • My Vehicles > Set Reminders
+// â€¢ My Vehicles > No Vehicle
+// â€¢ My Vehicles > Add Vehicle
+// â€¢ My Vehicles > Edit Vehicle
+// â€¢ My Vehicles > Set Reminders
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
